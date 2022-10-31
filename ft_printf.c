@@ -6,7 +6,7 @@
 /*   By: mzeroual <mzeroual@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/19 18:56:45 by mzeroual          #+#    #+#             */
-/*   Updated: 2022/10/20 18:03:27 by mzeroual         ###   ########.fr       */
+/*   Updated: 2022/10/31 22:04:11 by mzeroual         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,7 @@ int	print(const char s, va_list args)
 	else if (s == '%')
 		return (ft_putchar('%'));
 	else
-		if (s != '\0')
-			return (ft_putchar(s));
+		return (ft_putchar(s));
 	return (0);
 }
 
